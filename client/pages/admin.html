@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADM Page</title>
+</head>
+<body>
+    <form action="http://localhost:4000/admin" method="POST">
+        <!-- <div>
+            <label for="fimg">Selecione as imagens do produto</label>
+            <input type="file" id="fimg" name="fimg">
+        </div> -->
+        <div>
+            <label for="fnomep">Nome do Produto</label>
+            <input type="textfield" id="fnomep" name="fnomep">
+        </div>
+        <div>
+            <label for="fdescp">Descrição do Produto</label>
+            <textarea type="area" id="fdescp" name="fdescp"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+    </form>
+
+    <section id="leiloes">
+        <div id="listaLeiloes">
+
+        </div>
+    </section>
+    <script src="./scripts/admin.js"></script>
+</body>
+</html>
